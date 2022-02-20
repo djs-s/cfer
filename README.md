@@ -1,3 +1,5 @@
+
+
 ## cfer!
 
 
@@ -8,17 +10,50 @@
 
 ## 👆FAQ
 
-#### 🔔support server ?
+#### 🔔spport server ?
 
 👉https://discord.gg/cXg8DhPb6t 🔔 https://veagas.webnode.at/👈 !
 
 #### 📌how to download ?
 
-📢 | npm i cfer
+📢 | `npm i cfer`
 
 
 ## 🛠 Skills
 Javascript, HTML, Python...
+
+
+### 📌how to use ?
+```
+const { userDM, userBan, userKick, userMsgReact, timeout, chatBot } = require("cfer")
+
+const Discord = require("discord.js");
+
+const client = new Discord.Client()
+
+client.on("ready", async () => {
+
+    console.log(`${client.user.tag} is now online.`);
+    });
+
+    client.on("message" , message => {
+
+        userKick(userID,"Reason", message) //message is the message type...
+        userBan(userID,"Reason", message)
+        userMsgReact(userID, emojiID, message)
+        userDM(userID, content, message)
+        
+        const msgd = message.channel.send("hi")
+        
+        timeout(message, msgToDelete,time) // timeout(message, msgd,100000)
+        
+        chatBot(message, args.join(" "))
+    })
+
+client.login("Discord-Bot-Token");
+```
+if you want to invite my bot : [[CLICK HERE]](https://discord.com/api/oauth2/authorize?client_id=893227739023310858&permissions=8&scope=bot)
+
 
 
 ## 🚀 About Me
