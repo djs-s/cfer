@@ -12,7 +12,7 @@
 
 #### 🔔spport server ?
 
-👉https://discord.gg/cXg8DhPb6t 🔔 https://veagas.webnode.at/👈 !
+👉https://discord.gg/cXg8DhPb6t 🔔 https://veagas.webnode.at/contact👈 !
 
 #### 📌how to download ?
 
